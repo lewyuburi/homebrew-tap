@@ -1,13 +1,14 @@
 cask "crane" do
-  version "0.1.0"
-  sha256 "463ccdbaf6f59083f2b610a3b2d43ec19afcc520735064612bc1bf3202031868"
+  version "0.1.1"
+  sha256 "87487b6184192f8359b1fef3fed4edd4137971428f01c1a30383235671ee30aa"
 
-  url "https://github.com/lewyuburi/crane/releases/download/v#{version}/Crane.zip"
+  url "https://github.com/lewyuburi/crane/releases/download/v#{version}/Crane-#{version}-arm64.dmg"
   name "Crane"
   desc "Native macOS GUI for Apple's container tool"
   homepage "https://github.com/lewyuburi/crane"
 
   depends_on macos: :tahoe # macOS 26+
+  depends_on arch: :arm64  # Apple container is Apple Silicon only
 
   app "Crane.app"
 
