@@ -1,6 +1,6 @@
 cask "crane" do
-  version "0.1.1"
-  sha256 "87487b6184192f8359b1fef3fed4edd4137971428f01c1a30383235671ee30aa"
+  version "0.1.2"
+  sha256 "e28a5ea7f9b3d16614540115d7bfe584a5df24abdf9fb1b68c4663e28f49a529"
 
   url "https://github.com/lewyuburi/crane/releases/download/v#{version}/Crane-#{version}-arm64.dmg"
   name "Crane"
