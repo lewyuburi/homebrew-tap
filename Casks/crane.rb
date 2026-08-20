@@ -1,8 +1,8 @@
 # Source copy of the Homebrew cask. The tap (`lewyuburi/homebrew-tap`) is what `brew`
 # actually reads; a tagged release copies this file over and fills in sha256.
 cask "crane" do
-  version "2.0.4"
-  sha256 "a6ecdeb5b3c9e813a3aa31fc32e2fa7cd3bf2fe4493868d4746138daaf0089c5"
+  version "2.0.5"
+  sha256 "1ee1370f9a2fe95b0b64767ff7948249a1b7586cc3916da129a5005624abc0f8"
 
   url "https://github.com/lewyuburi/crane/releases/download/v#{version}/Crane-#{version}-arm64.dmg"
   name "Crane"
